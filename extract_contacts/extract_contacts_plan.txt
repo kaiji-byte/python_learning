@@ -1,0 +1,13 @@
+Plan to extract contact info from large docs:
+    Copy text to clipboard
+    Have program retrieve text from clipboard to process it
+        use pyperclip to copy and paste text
+    Regex match contact info (email and phone number)
+        use re module for regex
+        2 regexes for phone number and email
+        find a way to match the phone number with its email
+    Copy matched contacts onto clipboard (in an organized manner if possible)
+        if no matches found, display a message and exit program
+            import sys module and do sys.exit()
+    Done?
+

@@ -81,7 +81,7 @@ if user_or_clip == "1":
         break
     user_phone_choice = int(user_phone_choice) - 1
     pyperclip.copy(result[user_phone_choice])
-
+    text_scanner(pyperclip.paste())
 
 if user_or_clip == "2":
     result = text_scanner(pyperclip.paste())
@@ -100,9 +100,7 @@ if user_or_clip == "2":
         break
     user_phone_choice = int(user_phone_choice) - 1
     pyperclip.copy(result[user_phone_choice])
-
-
-text_scanner(pyperclip.paste())
+    text_scanner(pyperclip.paste())
 
 
 """
